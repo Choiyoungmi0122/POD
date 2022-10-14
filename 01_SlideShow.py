@@ -17,8 +17,8 @@ if not img_files:       #img_files 아예 존재하지 않다면 출력 후 바�
     
 #전체화면으로 'image'창 생성    
 cv2.namedWindow('image', cv2.WINDOW_NORMAL)
-cv2.setWindowProperty('image', cv2.WND_PROP_FULLSCREEN,
-                    cv2.WINDOW_FULLSCREEN )
+# cv2.setWindowProperty('image', cv2.WND_PROPd
+# 위에꺼 전체 화면으로 설정하는건데 이미지크기가 전체화면으로 안늘어남 주석처리하니 창크기에 맞게 monal로 늘어남
 
 
 #무한루프
